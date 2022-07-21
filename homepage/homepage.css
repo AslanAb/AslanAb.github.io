@@ -157,6 +157,7 @@ body{
 .login2{
     width: 42px;
     height: 42px;
+    border: 1px solid transparent;
     background-image: radial-gradient(#9CB7C7, #748E9C);
 }
 .header_right{
@@ -181,7 +182,7 @@ body{
     border: none;
 }
 .Dreams_Come_True{
-    width: 52%;
+    width: 45%;
     height: 70px;
     border: 2px solid #DEDEDE;
     background-color: #ffffff;
@@ -465,7 +466,11 @@ body{
 
 @media (max-width: 768px){
     .header{
-        
+        height: auto;
+        box-sizing: border-box;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        margin-bottom: 50px;
     }
     .header_left{
         flex-direction: column;
@@ -475,6 +480,10 @@ body{
     }
     .menu{
         flex-flow: wrap;
+        justify-content: space-between;
+    }
+    .menu > a{
+        margin-right: 5px;
     }
     .header_right{
         width: 15%;
@@ -490,6 +499,7 @@ body{
     .block1_top_left_buttons{
         width: 100%;
         margin-top: 50px;
+        justify-content: space-around;
     }
     .Start_collecting{
         font-size: 12px;
@@ -522,7 +532,13 @@ body{
         height: auto;
     }
     .p15{
-        font-size: 20px;
+        font-size: 16px;
+    }
+    .p2{
+        font-size: 16px;
+    }
+    .p21{
+        font-size: 16px;
     }
     .percent{
         display: none;
@@ -567,6 +583,7 @@ body{
         display: flex;
         flex-direction: column;
         align-items: center;
+        text-align: center;
     }
     .block4_cards{
         flex-direction: column;
@@ -627,6 +644,19 @@ body{
     .footer_bot_l{
         width: 50%;
         justify-content: space-around;
+    }
+    .img15{
+        margin-bottom: 10px;
+    }
+    .noneunderline{
+        margin-bottom: 5px;
+        font-size: 14px;
+    }
+    .block1_bot_left_top{
+        align-items: center;
+    }
+    .p6{
+        margin-bottom: 50px;
     }
     
 }
