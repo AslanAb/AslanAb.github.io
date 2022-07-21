@@ -1,0 +1,403 @@
+body{
+    margin: 0;
+}
+
+.inter{
+    font-family: 'Inter', sans-serif;
+}
+.beauty{
+    font-family: 'Beauty Swing Personal Use', sans-serif;
+}
+.qt{
+    font-family: 'QTOptimum', sans-serif;
+}
+.helvet{
+    font-family: 'HelveticaNeueCyr', sans-serif;
+}
+
+.f400{
+    font-weight: 400;
+}
+.f500{
+    font-weight: 500;
+}
+.f600{
+    font-weight: 600;
+}
+.f700{
+    font-weight: 700;
+}
+
+.black{
+    color: #1C2529;
+}
+.darkgrey{
+    color: #6C8693;
+}
+.grey{
+    color: #AAAAAA;
+}
+.grey1{
+    color: #979391;
+}
+.pasta{
+    color: #476676;
+}
+.darkpasta{
+    color: #1E4257;
+}
+.white50{
+    color: rgba(255, 255, 255, 0.5);
+}
+.lightgrey{
+    color: #D9D9D9;
+}
+.white{
+    color: #ffffff;
+}
+.white1{
+    color: #E8F6FE;
+}
+
+.f17{
+    font-size: 17px;
+}
+.f12{
+    font-size: 12px;
+}
+.f20{
+    font-size: 20px;
+}
+.f24{
+    font-size: 24px;
+}
+.f100{
+    font-size: 100px;
+}
+.f36{
+    font-size: 36px;
+}
+.f10{
+    font-size: 10px;
+}
+.f15{
+    font-size: 15px;
+}
+.f23{
+    font-size: 23px;
+}
+.f30{
+    font-size: 30px;
+}
+.f40{
+    font-size: 40px;
+}
+.f25{
+    font-size: 25px;
+}
+.f8{
+    font-size: 8px;
+}
+.f_up{
+    text-transform: uppercase;
+}
+
+.w100{
+    width: 100%;
+}
+
+.m0{
+    margin: 0;
+}
+
+.flex{
+    display: flex;
+}
+.column{
+    flex-direction: column;
+}
+.ai{
+    align-items: center;
+}
+.center{
+    justify-content: center;
+}
+.sb{
+    justify-content: space-between;
+}
+.sa{
+    justify-content: space-around;
+}
+.ai_start{
+    align-items: flex-start;
+}
+
+.pad10{
+    padding: 0 10%;
+    box-sizing: border-box;
+}
+
+.header{
+    height: 100px;
+    border-bottom: 1px solid #E6E6E6;
+}
+.header_left{
+    width: 70%;
+}
+.menu{
+    width: 80%;
+}
+.noneunderline{
+    text-decoration: none;
+}
+.menu > a:hover{
+    font-weight: 600;
+    color: #6C8693;
+}
+.login{
+    width: 42px;
+    height: 42px;
+    border: 1px solid #ECECEC;
+    margin-right: 2%;
+}
+.login2{
+    width: 42px;
+    height: 42px;
+    background-image: radial-gradient(#9CB7C7, #748E9C);
+}
+.header_right{
+    width: 8%;
+}
+
+.block1{
+    background-image: url(./image/image\ 32.png);
+    background-size: cover;
+    background-position: top;
+    height: 615px;
+}
+.h1{
+    line-height: 50px;
+    max-width: 50%;
+    text-decoration: none;
+    font-size: 60px;
+}
+.block1_button{
+    width: 200px;
+    height: 64px;
+    background-image: radial-gradient(#9CB7C7, #748E9C);
+    margin-top: 40px;
+    border: none;
+}
+.block2_top{
+    width: 70%;
+    box-sizing: border-box;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.block2_top_div{
+    width: 80px;
+    height: 80px;
+    border: 1px solid #476676;
+}
+.block2_top_div1{
+    max-width: 80%;
+}
+.block2_card{
+    width: 30%;
+    height: 220px;
+    box-sizing: border-box;
+    padding-left: 5%;
+    padding-right: 3%;
+    border: 1px solid #B1D0D8;
+}
+.block2_img1{
+    max-width: 126px;
+}
+.block2_img2{
+    max-width: 90px;
+}
+.block2_img3{
+    max-width: 90px;
+}
+.block3{
+    height: 404px;
+    background-image: radial-gradient(#9CB7C7, #748E9C);
+    margin-top: 90px;
+    margin-bottom: 100px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.block3_card{
+    width: 49%;
+    min-height: 158px;
+    border: 1px solid #E1F9FF;
+    box-sizing: border-box;
+    padding-left: 3%;
+    padding-right: 10%;
+}
+.block3_l{
+    width: 80%;
+}
+.p13{
+    max-width: 70%;
+}
+.img2{
+    max-width: 170px;
+    max-height: 250px;
+}
+
+.block_menu{
+    border-bottom: 1px solid #D9D9D9;
+    margin-top: 65px;
+    margin-bottom: 65px;
+}
+.block_menu_l{
+    width: 35%;
+    height: 57px;
+}
+.p10{
+    width: 130px;
+    height: 57px;
+    border-top: 1px solid #D9D9D9;
+    border-left: 1px solid #D9D9D9;
+    border-right: 1px solid #D9D9D9;
+    border-bottom: 2px solid #ffffff;
+}
+.block5_card{
+    box-sizing: border-box;
+    padding: 0 5% 0 2%;
+    height: 78px;
+}
+.block5_card_l{
+    width: 30%;
+}
+.block5_card_r{
+    width: 9%;
+}
+.back_img1{
+    background-image: linear-gradient(90deg, #7495A6 -2.86%, #B9D6E8 101.36%);
+}
+.back_img2{
+    background-image: linear-gradient(90deg, #83A8BB -2.86%, #CEE6F4 101.36%);
+}
+.back_img3{
+    background-image: linear-gradient(90deg, #A7C2D3 -2.86%, #EDF8FF 101.36%);
+}
+.img7{
+    max-height: 58px;
+}
+.img8{
+    max-height: 25px;
+}
+.mar8{
+    margin-right: 8%;
+}
+.marbot60{
+    margin-bottom: 60px;
+}
+
+.block4_button{
+    width: 20%;
+    height: 70px;
+    border: 1px solid #C2D5DE;
+    background-color:#ffffff;
+    margin: 59px auto 78px;
+    display: block;
+}
+.borderbot{
+    border-bottom: 1px solid #C7DCE9;
+}
+
+.footer{
+    background-color: #394348;
+    padding: 80px 10%;
+    box-sizing: border-box;
+    margin-top: 100px;
+}
+.footer_top_l{
+    width: 52%;
+    height: 100%;
+}
+.footer_top{
+    height: 156px;
+}
+.input_footer{
+    width: 72%;
+    height: 53px;
+    background-color: transparent;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    box-sizing: border-box;
+    padding: 20px;
+}
+.button_footer{
+    width: 25%;
+    height: 53px;
+    background-color: #FFFFFF;
+    border: none;
+    color: #6A5843;
+}
+.en{
+    width: 40px;
+    height: 40px;
+    border: 2px solid #FFFFFF;
+    margin-right: 10%;
+}
+.ru{
+    width: 40px;
+    height: 40px;
+    border: 1px solid #748F9C;
+}
+.ru:hover{
+    border: 2px solid #FFFFFF;
+}
+.p9{
+    max-width: 80%;
+}
+.footer_top_r{
+    width: 20%;
+    height: 100%;
+}
+.enru{
+    justify-content: flex-end;
+}
+.footer_bot_l{
+    width: 17%;
+}
+.footer_bot_r{
+    width: 70%;
+}
+.footer_bot{
+    margin-top: 80px;
+}   
+.img5{
+    max-height: 34px;
+}
+.borderdiv{
+    width: 1px;
+    height: 44px;
+    border-right: 1px solid #748F9C;
+}
+.footer_bot_r > a{
+    text-decoration: none;
+}
+.footer_bot_r > a:hover{
+    font-weight: 600;
+    color: #ffffff;
+}
+
+
+
+
+@font-face {
+    font-family: 'Beauty Swing Personal Use';
+    src: url(../fonts/MADE\ Mirage\ Thin\ PERSONAL\ USE.otf);
+    font-style: normal;
+}
+@font-face {
+    font-family: 'QTOptimum';
+    src: url(../fonts/QTOptimumBold.ttf);
+}
+@font-face {
+    font-family: 'HelveticaNeueCyr';
+    src: url(../fonts/HelveticaNeueCyr-Medium.ttf);
+}
