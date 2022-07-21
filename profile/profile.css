@@ -343,6 +343,9 @@ body{
     font-weight: 600;
     color: #ffffff;
 }
+.icons{
+    max-width: 32px;
+}
 
 
 
